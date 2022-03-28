@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="external_layout_standard_custom_footer" inherit_id="web.external_layout_standard">
+    <template id="external_layout_standard_custom" inherit_id="web.external_layout_standard">
         <!-- *** Custom Footer *** -->
         <xpath expr="//div/div[hasclass('text-center')]" position="replace">
             <div class="text-center" style="border-top: 1px solid black;">
-                <h6>TEST FOOTER TEMPLATE</h6>
                 <h6>
                     <t t-if="company.phone">Phone:
                         <span t-field="company.phone"/>
