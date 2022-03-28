@@ -36,12 +36,12 @@
            <div class="oe_structure"/>
             
                     <table class="table table-sm" style=" table-layout:fixed;" >
-                <thead style=" background-color: #893b74;">
+                <thead style=" background-color: #876480;">
                     <tr>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Vendor</th>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Shipping Address</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Reference/Description</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Request For Quatation #</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Vendor</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Shipping Address</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Reference/Description</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Request For Quatation #</th>
                     </tr>
                </thead>
                <tbody>
@@ -91,12 +91,12 @@
             </table>
             
             <table class="table table-sm" style=" table-layout:fixed; padding-top=20px;" >
-                <thead style=" background-color: #893b74;">
+                <thead style=" background-color: #876480;">
                     <tr>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Order Date</th>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Scheduled Date</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Approval Date</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Payment Term</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Order Date</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Scheduled Date</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Approval Date</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Payment Term</th>
                     </tr>
                </thead>
                <tbody>
@@ -121,9 +121,9 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;">Description</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-center">Expected Date</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-right">Qty</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;">Description</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Expected Date</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-right">Qty</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -142,7 +142,7 @@
                 </tbody>
             </table>
         
-            <p style=" background-color: #893b74;" t-field="o.notes" />
+            <p style=" background-color: #876480;" t-field="o.notes" />
 
             <div class="oe_structure"/>
         </div>

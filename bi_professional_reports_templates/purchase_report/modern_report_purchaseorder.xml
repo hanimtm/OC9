@@ -39,11 +39,11 @@
                     <table class="table table-sm" style=" table-layout:fixed;" >
                 <thead>
                     <tr>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Vendor</th>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Shipping Address</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Reference/Description</th>
-                        <th t-if="o.state != 'draft'" width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Purchase Order #</th>
-                        <th t-if="o.state == 'draft'" width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Request for Quotation #</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Vendor</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Shipping Address</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Reference/Description</th>
+                        <th t-if="o.state != 'draft'" width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Purchase Order #</th>
+                        <th t-if="o.state == 'draft'" width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Request for Quotation #</th>
                     </tr>
                </thead>
                <tbody>
@@ -97,10 +97,10 @@
             <table class="table table-sm" style=" table-layout:fixed; padding-top=20px;" >
                 <thead>
                     <tr>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Order Date</th>
-                        <th width="30px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Scheduled Date</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Approval Date</th>
-                        <th width="20px" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Payment Term</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Order Date</th>
+                        <th width="30px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Scheduled Date</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Approval Date</th>
+                        <th width="20px" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">Payment Term</th>
                     </tr>
                </thead>
                <tbody>
@@ -125,12 +125,12 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Description</strong></th>
-                        <th style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Taxes</strong></th>
-                        <th class="text-center" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Date Req.</strong></th>
-                        <th class="text-right" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Qty</strong></th>
-                        <th class="text-right" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Unit Price</strong></th>
-                        <th class="text-right" style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Net Price</strong></th>
+                        <th style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Description</strong></th>
+                        <th style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Taxes</strong></th>
+                        <th class="text-center" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Date Req.</strong></th>
+                        <th class="text-right" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Qty</strong></th>
+                        <th class="text-right" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Unit Price</strong></th>
+                        <th class="text-right" style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; "><strong>Net Price</strong></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -176,7 +176,7 @@
                                     t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                             </td>
                         </tr>
-                        <tr style=" background-color: #893b74;" class="border-black">
+                        <tr style=" background-color: #876480;" class="border-black">
                             <td><strong>Total</strong></td>
                             <td class="text-right">
                                 <span t-field="o.amount_total"
@@ -186,7 +186,7 @@
                     </table>
                 </div>
         <br/><br/><br/><br/><br/><br/><br/><br/>
-<div style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+<div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
             <p t-if="o.notes">
             <strong><font color="#FFF"><span>Note:</span> </font></strong> <font color="#FFF"><span t-field="o.notes" /></font>
             </p>

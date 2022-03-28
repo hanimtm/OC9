@@ -40,19 +40,19 @@
                             <thead>
                                 <tr>
                                     <th width="30px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Customer
                                     </th>
                                     <th width="30px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Delivery Address
                                     </th>
                                     <th width="20px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Reference/Description
                                     </th>
                                     <th width="20px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Invoice #
                                     </th>
                                 </tr>
@@ -134,19 +134,19 @@
                             <thead>
                                 <tr>
                                     <th width="30px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Invoice Date
                                     </th>
                                     <th width="30px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Due Date
                                     </th>
                                     <th width="20px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         Payment Term
                                     </th>
                                     <th width="20px"
-                                        style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                        style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         SalesPerson
                                     </th>
                                 </tr>
@@ -176,17 +176,17 @@
                         <table class="table table-sm">
                             <thead>
                                 <tr>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Description
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Description
                                     </th>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Quantity</th>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Unit Price
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Quantity</th>
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Unit Price
                                     </th>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;"
+                                    <th style="background-color:#876480 !important;color:#FFF !important;"
                                         t-if="display_discount" class="text-right"
                                         groups="sale.group_discount_per_so_line">Disc.(%)
                                     </th>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Taxes</th>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Price</th>
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Taxes</th>
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Price</th>
                                 </tr>
                             </thead>
                             <tbody class="invoice_tbody">
@@ -236,7 +236,7 @@
                                         </td>
                                     </tr>
                                 </t>
-                                <tr class="border-black" style=" background-color: #3498DB; color:#fff !important;">
+                                <tr class="border-black" style=" background-color: #876480; color:#fff !important;">
                                     <td>
                                         <strong>Total</strong>
                                     </td>
@@ -256,7 +256,7 @@
                         <span t-field="o.narration"/>
                     </p>
                     <p t-if="o.paypal_chk">
-                        <div style="background-color: #3498DB;">
+                        <div style="background-color: #876480;">
                             <strong style="color:#fff !important;">Paypal Account Details</strong>
                             <br/>
                             <span>
@@ -266,7 +266,7 @@
                         </div>
                     </p>
                     <p t-if="o.paypal_chk == False">
-                        <div style="background-color: #3498DB;">
+                        <div style="background-color: #876480;">
                             <strong style="color:#fff !important;">Bank Account Details</strong>
                             <br/>
                             <span>

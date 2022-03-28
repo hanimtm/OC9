@@ -35,7 +35,7 @@
                 <t t-set="o" t-value="o.with_context({'lang':o.partner_id.lang})"/>
                 <div class="page">
 
-                    <div style=" background-color:  #3498DB;">
+                    <div style=" background-color:  #876480;">
                         <h2>
                             <span t-if="o.move_type == 'out_invoice' and (o.state == 'draft' or o.state == 'posted')">
                                 <font color="#fff">Invoice</font>
@@ -98,7 +98,7 @@
                         <div class="col-3" style="font:15px lucida-console,sans-serif !important;">
                             <strong>Customer Address</strong>
                             <br/>
-                            <span style="color:#3498DB !important;" t-field="o.partner_id"/>
+                            <span style="color:#876480 !important;" t-field="o.partner_id"/>
                             <br/>
                             <span style="color:gray !important;" t-field="o.partner_id.street"/>
                             <br/>
@@ -118,23 +118,23 @@
                         <table class="table table-sm">
                             <thead>
                                 <tr>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Description
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Description
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Quantity
+                                        style="background-color:#876480 !important;color:#FFF !important;">Quantity
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Unit Price
+                                        style="background-color:#876480 !important;color:#FFF !important;">Unit Price
                                     </th>
                                     <th t-if="display_discount" class="text-right"
                                         groups="sale.group_discount_per_so_line"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Disc.(%)
+                                        style="background-color:#876480 !important;color:#FFF !important;">Disc.(%)
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Taxes
+                                        style="background-color:#876480 !important;color:#FFF !important;">Taxes
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Price
+                                        style="background-color:#876480 !important;color:#FFF !important;">Price
                                     </th>
                                 </tr>
                             </thead>
@@ -205,13 +205,13 @@
                         <span t-field="o.narration"/>
                     </p>
                     <p t-if="o.paypal_chk">
-                        <strong style="color:#3498DB !important;">Paypal Account Details</strong>
+                        <strong style="color:#876480 !important;">Paypal Account Details</strong>
                         <br/>
                         <span>Paypal Id :</span>
                         <span style="color:gray !important;" t-field="o.paypal_id"/>
                     </p>
                     <p t-if="o.paypal_chk == False">
-                        <strong style="color:#3498DB !important;">Bank Account Details</strong>
+                        <strong style="color:#876480 !important;">Bank Account Details</strong>
                         <br/>
                         <span>Account Id :</span>
                         <span style="color:gray !important;" t-field="o.company_id.bank_account_id.acc_number"/>

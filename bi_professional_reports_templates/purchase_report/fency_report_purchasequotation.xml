@@ -35,11 +35,11 @@
         <t t-set="o" t-value="o.with_context({'lang':o.partner_id.lang})"/>
         <div class="page">
             <div class="oe_structure"/>
-            <h2 style=" background-color:  #3498DB;"><font color="#fff">Request for Quotation <span t-field="o.name"/></font></h2>
+            <h2 style=" background-color:  #876480;"><font color="#fff">Request for Quotation <span t-field="o.name"/></font></h2>
             <div class="row mt32 mb32">
             <div class="col-6 ">
                 <strong style="color:gray !important;">Vendor address:</strong><br/>
-                    <span style="color:#3498DB !important;" t-field="o.partner_id" /><br/>
+                    <span style="color:#876480 !important;" t-field="o.partner_id" /><br/>
                         <span t-if="o.partner_id.street"  t-field="o.partner_id.street" /><br/>
                         <span t-if="o.partner_id.street2"  t-field="o.partner_id.street2" /><br/>
                         <span t-if="o.partner_id.city"  t-field="o.partner_id.city" /><br/>
@@ -70,9 +70,9 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th style="background-color:#3498DB !important;color:#FFF !important;">Description</th>
-                        <th style="background-color:#3498DB !important;color:#FFF !important;" class="text-center">Expected Date</th>
-                        <th style="background-color:#3498DB !important;color:#FFF !important;" class="text-right">Qty</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;">Description</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Expected Date</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-right">Qty</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -91,7 +91,7 @@
                 </tbody>
             </table>
 
-            <div style=" background-color: #3498DB; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+            <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
             <p t-if="o.notes">
             <strong><span>Note:</span> </strong> <span t-field="o.notes" />
             </p>

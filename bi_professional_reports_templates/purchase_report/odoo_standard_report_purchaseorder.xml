@@ -34,11 +34,11 @@
         <t t-set="o" t-value="o.with_context({'lang':o.partner_id.lang})"/>
         <div class="page">
             <div class="oe_structure"/>
-            <h2 style=" background-color:  #893b74;"><font color="#fff">Request for Quotation <span t-field="o.name"/></font></h2>
+            <h2 style=" background-color:  #876480;"><font color="#fff">Request for Quotation <span t-field="o.name"/></font></h2>
             <div class="row mt32 mb32">
             <div class="col-xs-6 ">
                 <strong style="color:gray !important;">Vendor address:</strong><br/>
-                    <span style="color:#893b74 !important;" t-field="o.partner_id" /><br/>
+                    <span style="color:#876480 !important;" t-field="o.partner_id" /><br/>
                         <t t-if="o.partner_id.street">
                         <t t-esc="o.partner_id.street"/>
                         </t><br/>
@@ -66,12 +66,12 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;">Description</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-center">Taxes</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-center">Date Req.</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-center">Qty</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-center">Unit Price</th>
-                        <th style="background-color:#893b74 !important;color:#FFF !important;" class="text-right">Net Price</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;">Description</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Taxes</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Date Req.</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Qty</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-center">Unit Price</th>
+                        <th style="background-color:#876480 !important;color:#FFF !important;" class="text-right">Net Price</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -117,8 +117,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="background-color:#893b74 !important;color:#FFF !important;"><strong>Total</strong></td>
-                            <td style="background-color:#893b74 !important;color:#FFF !important;" class="text-right">
+                            <td style="background-color:#876480 !important;color:#FFF !important;"><strong>Total</strong></td>
+                            <td style="background-color:#876480 !important;color:#FFF !important;" class="text-right">
                                 <span t-field="o.amount_total"
                                     t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                             </td>
@@ -127,7 +127,7 @@
                 </div>
             </div>
             <br/><br/><br/><br/><br/><br/><br/><br/>
-            <div style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+            <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
             <p t-if="o.notes">
             <strong><span>Note:</span> </strong> <span t-field="o.notes" />
             </p>

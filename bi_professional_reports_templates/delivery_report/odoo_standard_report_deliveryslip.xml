@@ -37,7 +37,7 @@
                     <div class="oe_structure"/>
                     <div class="row">
                         <div class="col-6" style="font:15px lucida-console,sans-serif !important;">
-                            <span style="background-color:#893b74; color:#FFF; font:20px lucida-console,sans-serif !important;">
+                            <span style="background-color:#876480; color:#FFF; font:20px lucida-console,sans-serif !important;">
                                 Customer Address
                             </span>
                             <br/>
@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="col-6 text-right" style="font:15px lucida-console,sans-serif !important;  ">
-                            <span style="background-color:#893b74; color:#FFF; font:20px lucida-console,sans-serif !important;">
+                            <span style="background-color:#876480; color:#FFF; font:20px lucida-console,sans-serif !important;">
                                 Delivery Address
                             </span>
                             <div t-if="o.move_lines and o.move_lines[0].partner_id and o.move_lines[0].partner_id.id != o.partner_id.id">
@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-4"/>
                         <div class="col-8 text-right"
-                             style="font:15px lucida-console,sans-serif !important; background-color:  #893b74;  ">
+                             style="font:15px lucida-console,sans-serif !important; background-color:  #876480;  ">
                             <h2>
                                 <span>
                                     <font color="#fff">Delivery Note #</font>
@@ -133,8 +133,8 @@
                            t-if="not o.move_line_ids">
                         <thead>
                             <tr>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;">Product</th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;">Ordered
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Product</th>
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Ordered
                                     Quantity
                                 </th>
                             </tr>
@@ -154,17 +154,17 @@
                     <table class="table table-sm" style="padding-top=50px;" t-if="o.move_line_ids">
                         <t t-set="has_serial_number" t-value="o.move_line_ids.mapped('lot_id')"
                            groups="stock.group_production_lot"/>
-                        <thead style=" background-color: #893b74;">
+                        <thead style=" background-color: #876480;">
                             <tr>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;">Product</th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;" name="lot_serial"
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Product</th>
+                                <th style="background-color:#876480 !important;color:#FFF !important;" name="lot_serial"
                                     t-if="has_serial_number">
                                     Lot/Serial Number
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-center">Ordered Quantity
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     t-if="any([move_line.state == 'done' for move_line in o.move_line_ids])"
                                     class="text-right">
                                     Delivered Quantity

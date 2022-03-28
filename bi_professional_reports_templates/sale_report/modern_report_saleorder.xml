@@ -40,19 +40,19 @@
                         <thead>
                             <tr>
                                 <th width="30px"
-                                    style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Customer
                                 </th>
                                 <th width="30px"
-                                    style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Invoicing and shipping address
                                 </th>
                                 <th width="20px"
-                                    style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Quotation Date
                                 </th>
                                 <th width="20px"
-                                    style="background-color:#893b74 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Quotation #
                                 </th>
                             </tr>
@@ -131,21 +131,21 @@
                     <table class="table table-sm">
                         <thead>
                             <tr>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;">Description</th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Description</th>
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-right">Quantity
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-right">Unit Price
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line">
                                     Disc.(%)
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-right">Taxes
                                 </th>
-                                <th style="background-color:#893b74 !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-right">Price
                                 </th>
                             </tr>
@@ -200,10 +200,10 @@
                                     </td>
                                 </tr>
                                 <tr class="border-black">
-                                    <td style="background-color:#893b74 !important;color:#FFF !important;">
+                                    <td style="background-color:#876480 !important;color:#FFF !important;">
                                         <strong>Total</strong>
                                     </td>
-                                    <td style="background-color:#893b74 !important;color:#FFF !important;"
+                                    <td style="background-color:#876480 !important;color:#FFF !important;"
                                         class="text-right">
                                         <span t-field="doc.amount_total"
                                               t-field-options='{"widget": "monetary", "display_currency": "doc.pricelist_id.currency_id"}'/>
@@ -220,7 +220,7 @@
                     <br/>
                     <br/>
                     <br/>
-                    <div style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+                    <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
                         <p t-if="doc.note">
                             <strong>
                                 <span>Note:</span>
@@ -228,7 +228,7 @@
                             <span t-field="doc.note"/>
                         </p>
                     </div>
-                    <div style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important;">
+                    <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important;">
                         <p t-if="doc.payment_term_id ">
                             <strong>
                                 <span>Payment Term :</span>

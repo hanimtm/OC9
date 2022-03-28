@@ -36,7 +36,7 @@
                 <div class="page">
                     <div class="oe_structure"/>
                     <div>
-                        <div style=" background-color:  #3498DB;">
+                        <div style=" background-color:  #876480;">
                             <h2>
                                 <span>
                                     <font color="#fff">Order#</font>
@@ -124,23 +124,23 @@
                         <table class="table table-sm">
                             <thead>
                                 <tr>
-                                    <th style="background-color:#3498DB !important;color:#FFF !important;">Description
+                                    <th style="background-color:#876480 !important;color:#FFF !important;">Description
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Quantity
+                                        style="background-color:#876480 !important;color:#FFF !important;">Quantity
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Unit Price
+                                        style="background-color:#876480 !important;color:#FFF !important;">Unit Price
                                     </th>
                                     <th t-if="display_discount" class="text-right"
                                         groups="sale.group_discount_per_so_line"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Disc.(%)
+                                        style="background-color:#876480 !important;color:#FFF !important;">Disc.(%)
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Taxes
+                                        style="background-color:#876480 !important;color:#FFF !important;">Taxes
                                     </th>
                                     <th class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">Price
+                                        style="background-color:#876480 !important;color:#FFF !important;">Price
                                     </th>
                                 </tr>
                             </thead>
@@ -193,11 +193,11 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color:#3498DB !important;color:#FFF !important;">
+                                    <td style="background-color:#876480 !important;color:#FFF !important;">
                                         <strong>Total</strong>
                                     </td>
                                     <td class="text-right"
-                                        style="background-color:#3498DB !important;color:#FFF !important;">
+                                        style="background-color:#876480 !important;color:#FFF !important;">
                                         <span t-field="doc.amount_total"
                                               t-field-options='{"widget": "monetary", "display_currency": "doc.pricelist_id.currency_id"}'/>
                                     </td>
@@ -213,7 +213,7 @@
                     <br/>
                     <br/>
                     <br/>
-                    <div style=" background-color: #3498DB; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+                    <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
                         <p t-if="doc.note">
                             <strong>
                                 <span>Note:</span>
@@ -221,7 +221,7 @@
                             <span t-field="doc.note"/>
                         </p>
                     </div>
-                    <div style=" background-color: #3498DB; color:#fff !important; font:15px lucida-console,sans-serif !important;">
+                    <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important;">
                         <p t-if="doc.payment_term_id ">
                             <strong>
                                 <span>Payment Term :</span>

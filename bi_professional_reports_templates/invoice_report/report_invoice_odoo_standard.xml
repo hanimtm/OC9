@@ -35,7 +35,7 @@
         <div class="page">
             <div class="row" style="padding-top:20px;">
             <div class="col-3" style="font:15px lucida-console,sans-serif !important;" >
-                <span style="color:#893b74 !important;" t-field="o.partner_id" /><br/>
+                <span style="color:#876480 !important;" t-field="o.partner_id" /><br/>
                 <span style="color:gray !important;" t-field="o.partner_id.street" /><br/>
                 <span style="color:gray !important;" t-field="o.partner_id.street2" /><br/>
                 <span style="color:gray !important;" t-field="o.partner_id.city" /><br/>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-3" />
 
-                <div class="col-6" style="font:15px lucida-console,sans-serif !important;  background-color:  #893b74;" >
+                <div class="col-6" style="font:15px lucida-console,sans-serif !important;  background-color:  #876480;" >
                     <h2>
                         <span  t-if="o.move_type == 'out_invoice' and (o.state == 'draft' or o.state == 'posted')"><font color="#fff">Invoice</font></span>
                         <span  t-if="o.move_type == 'out_invoice' and o.state == 'proforma2'"><font color="#fff">PRO-FORMA</font></span>
@@ -73,12 +73,12 @@
                 <table class="table table-sm">
                     <thead>
                         <tr>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;">Description</th>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;">Quantity </th>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;">Unit Price</th>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;"  t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line">Disc.(%)</th>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;">Taxes</th>
-                            <th style="background-color:#893b74 !important;color:#FFF !important;">Price</th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;">Description</th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;">Quantity </th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;">Unit Price</th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;"  t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line">Disc.(%)</th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;">Taxes</th>
+                            <th style="background-color:#876480 !important;color:#FFF !important;">Price</th>
                         </tr>
                     </thead>
                     <tbody class="invoice_tbody">
@@ -140,18 +140,18 @@
                 <br/><br/><br/><br/><br/>
     <div style="padding-top:50px;">
     </div>
-    <div style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
+    <div style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; ">
                 <p t-if="o.narration">
                 <strong><span>Comments:</span> </strong> <span t-field="o.narration" />
                 </p>
                 </div>
                 <div class="oe_structure"/>
                 <div>
-                <div class="col-xs-6" style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; " t-if="o.paypal_chk">
+                <div class="col-xs-6" style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; " t-if="o.paypal_chk">
                 <strong >Paypal Account Details</strong><br/>
                     <span>Paypal Id : </span><span t-field="o.paypal_id"/>
                 </div><br/><br/><br/>
-                <div class="col-xs-6"  style=" background-color: #893b74; color:#fff !important; font:15px lucida-console,sans-serif !important; " t-if="o.paypal_chk == False">
+                <div class="col-xs-6"  style=" background-color: #876480; color:#fff !important; font:15px lucida-console,sans-serif !important; " t-if="o.paypal_chk == False">
                 <strong >Bank Account Details</strong><br/>
                     <span>Account Id : </span><span  t-field="o.company_id.bank_account_id.acc_number"/><br/>
                     <span>Bank Name : </span><span  t-field="o.company_id.bank_account_id.bank_id.name"/><br/>

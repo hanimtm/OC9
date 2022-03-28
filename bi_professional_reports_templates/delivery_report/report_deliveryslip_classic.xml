@@ -40,23 +40,23 @@
                         <thead>
                             <tr>
                                 <th width="30px"
-                                    style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Customer Address
                                 </th>
                                 <th width="30px"
-                                    style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Contact Address
                                 </th>
                                 <th width="20px"
-                                    style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Origin
                                 </th>
                                 <th width="20px"
-                                    style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Scheduled Date
                                 </th>
                                 <th width="20px"
-                                    style="background-color:#3498DB !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
+                                    style="background-color:#876480 !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                     Delevery #
                                 </th>
                             </tr>
@@ -173,8 +173,8 @@
                     <table class="table table-sm" t-if="not o.move_line_ids">
                         <thead>
                             <tr>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;">Product</th>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;">Ordered
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Product</th>
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Ordered
                                     Quantity
                                 </th>
                             </tr>
@@ -196,15 +196,15 @@
                            groups="stock.group_production_lot"/>
                         <thead>
                             <tr>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;">Product</th>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;" name="lot_serial"
+                                <th style="background-color:#876480 !important;color:#FFF !important;">Product</th>
+                                <th style="background-color:#876480 !important;color:#FFF !important;" name="lot_serial"
                                     t-if="has_serial_number">
                                     Lot/Serial Number
                                 </th>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     class="text-center">Ordered Quantity
                                 </th>
-                                <th style="background-color:#3498DB !important;color:#FFF !important;"
+                                <th style="background-color:#876480 !important;color:#FFF !important;"
                                     t-if="any([move_line.state == 'done' for move_line in o.move_line_ids])"
                                     class="text-right">
                                     Delivered Quantity
