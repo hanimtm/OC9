@@ -219,9 +219,9 @@
                             <span>Bank Name :</span>
                             <span t-field="o.company_id.bank_account_id.bank_id.name"/>
                             <br/>
-                            <span>Branch Name/Address :</span>
-                            <span t-field="o.company_id.bank_account_id.branch_name"/>
-                            <br/>
+<!--                            <span>Branch Name/Address :</span>-->
+<!--                            <span t-field="o.company_id.bank_account_id.branch_name"/>-->
+<!--                            <br/>-->
                             <span>IBAN :</span>
                             <span t-field="o.company_id.bank_account_id.iban"/>
 <!--                            <br/>-->
