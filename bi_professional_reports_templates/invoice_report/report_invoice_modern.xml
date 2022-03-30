@@ -282,10 +282,10 @@
                         <div style="background-color: #876480;">
                            <strong>Bank Account Details</strong>
                             <br/>
-                            <span>Account Id :</span>
+                            <span>Account Number :</span>
                             <span t-field="o.company_id.bank_account_id.acc_number"/>
                             <br/>
-                            <span>Bank Number :</span>
+                            <span>Bank Name :</span>
                             <span t-field="o.company_id.bank_account_id.bank_id.name"/>
                             <br/>
                             <span>Branch Name/Address :</span>
