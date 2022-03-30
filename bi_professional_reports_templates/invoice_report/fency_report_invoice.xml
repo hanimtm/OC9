@@ -211,19 +211,19 @@
                         <span style="color:gray !important;" t-field="o.paypal_id"/>
                     </p>
                     <p t-if="o.paypal_chk == False">
-                        <strong>Bank Account Details</strong>
+                        <strong style="color:#ffffff !important;">Bank Account Details</strong>
                             <br/>
-                            <span>Account Number :</span>
-                            <span t-field="o.company_id.bank_account_id.acc_number"/>
+                            <span style="color:#ffffff !important;">Account Number :</span>
+                            <span style="color:#ffffff !important;" t-field="o.company_id.bank_account_id.acc_number"/>
                             <br/>
-                            <span>Bank Name :</span>
-                            <span t-field="o.company_id.bank_account_id.bank_id.name"/>
+                            <span style="color:#ffffff !important;">Bank Name :</span>
+                            <span style="color:#ffffff !important;" t-field="o.company_id.bank_account_id.bank_id.name"/>
                             <br/>
 <!--                            <span>Branch Name/Address :</span>-->
 <!--                            <span t-field="o.company_id.bank_account_id.branch_name"/>-->
 <!--                            <br/>-->
-                            <span>IBAN :</span>
-                            <span t-field="o.company_id.bank_account_id.iban"/>
+                            <span style="color:#ffffff !important;">IBAN :</span>
+                            <span style="color:#ffffff !important;" t-field="o.company_id.bank_account_id.iban"/>
 <!--                            <br/>-->
 <!--                            <span t-field="o.company_id.bank_account_id.street"/>-->
 <!--                            <br/>-->
@@ -237,11 +237,11 @@
 <!--                            <span>,</span>-->
 <!--                            <span t-field="o.company_id.bank_account_id.country_id"/>-->
                             <br/>
-                            <span>Swift Code :</span>
-                            <span t-field="o.company_id.bank_account_id.swift_code"/>
+                            <span style="color:#ffffff !important;">Swift Code :</span>
+                            <span style="color:#ffffff !important;" t-field="o.company_id.bank_account_id.swift_code"/>
                             <br/>
-                            <span>IFSC Code :</span>
-                            <span t-field="o.company_id.bank_account_id.ifsc"/>
+                            <span style="color:#ffffff !important;">IFSC Code :</span>
+                            <span style="color:#ffffff !important;" t-field="o.company_id.bank_account_id.ifsc"/>
                             <br/>
 
 
