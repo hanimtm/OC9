@@ -211,35 +211,39 @@
                         <span style="color:gray !important;" t-field="o.paypal_id"/>
                     </p>
                     <p t-if="o.paypal_chk == False">
-                        <strong style="color:#876480 !important;">Bank Account Details</strong>
-                        <br/>
-                        <span>Account Id :</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.acc_number"/>
-                        <br/>
-                        <span>Bank Name :</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.bank_id.name"/>
-                        <br/>
-                        <span>Branch Name/Address :</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.branch_name"/>
-                        <br/>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.street"/>
-                        <br/>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.street2"/>
-                        <span>,</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.city"/>
-                        <span>,</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.zip"/>
-                        <br/>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.state_id"/>
-                        <span>,</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.country_id"/>
-                        <br/>
-                        <span>Swift Code :</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.swift_code"/>
-                        <br/>
-                        <span>IFSC Code :</span>
-                        <span style="color:gray !important;" t-field="o.company_id.bank_account_id.ifsc"/>
-                        <br/>
+                        <strong>Bank Account Details</strong>
+                            <br/>
+                            <span>Account Id :</span>
+                            <span t-field="o.company_id.bank_account_id.acc_number"/>
+                            <br/>
+                            <span>Bank Number :</span>
+                            <span t-field="o.company_id.bank_account_id.bank_id.name"/>
+                            <br/>
+                            <span>Branch Name/Address :</span>
+                            <span t-field="o.company_id.bank_account_id.branch_name"/>
+                            <br/>
+                            <span>IBAN :</span>
+                            <span t-field="o.company_id.bank_account_id.iban"/>
+<!--                            <br/>-->
+<!--                            <span t-field="o.company_id.bank_account_id.street"/>-->
+<!--                            <br/>-->
+<!--                            <span t-field="o.company_id.bank_account_id.street2"/>-->
+<!--                            <span>,</span>-->
+<!--                            <span t-field="o.company_id.bank_account_id.city"/>-->
+<!--                            <span>,</span>-->
+<!--                            <span t-field="o.company_id.bank_account_id.zip"/>-->
+<!--                            <br/>-->
+<!--                            <span t-field="o.company_id.bank_account_id.state_id"/>-->
+<!--                            <span>,</span>-->
+<!--                            <span t-field="o.company_id.bank_account_id.country_id"/>-->
+                            <br/>
+                            <span>Swift Code :</span>
+                            <span t-field="o.company_id.bank_account_id.swift_code"/>
+                            <br/>
+                            <span>IFSC Code :</span>
+                            <span t-field="o.company_id.bank_account_id.ifsc"/>
+                            <br/>
+
 
                     </p>
                     <p t-if="o.fiscal_position_id.note">

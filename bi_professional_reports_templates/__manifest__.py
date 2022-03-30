@@ -19,6 +19,7 @@
     'data': [
 
         "res_company.xml",
+        "res_partner_bank.xml",
         "template.xml",
 
         "invoice_report/fency_report_account.xml",
